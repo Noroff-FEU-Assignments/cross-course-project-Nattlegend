@@ -1,0 +1,293 @@
+/* Global CSS Code */
+
+@font-face {
+  font-family: "Bahnschrift";
+  src: url("../fonts/Bahnschrift-Font-Family/BAHNSCHRIFT.TTF") format(Truetype);
+}
+
+header {
+  background-image: url("../images/austin-ban-juHayWuaaoQ-unsplash-900width-300height.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  min-height: 300px;
+  position: relative;
+  justify-content: right;
+}
+
+header .logo {
+  object-position: left top;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+header label {
+  padding: 8px 0px 0px 10px;
+  display: inline-block;
+}
+
+.logo {
+  max-width: 207px;
+  border-radius: 20px;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 900px;
+  margin: 0px auto;
+  background-color: #fff;
+  font-family: "Bahnschrift", Arial, Helvetica, sans-serif;
+}
+
+footer {
+  background-color: #b4bfcc;
+  min-height: 100px;
+  margin: auto;
+}
+
+footer a {
+  text-decoration: none;
+  color: #565939;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin: 0px auto;
+}
+
+.footer-links__content,
+h3 {
+  margin: 0px auto;
+  color: #565939;
+}
+
+/* Navigation menu */
+
+.nav-background {
+  background-image: linear-gradient(#7b94b4, #525e6e);
+  max-width: 900px;
+  min-height: 31px;
+  padding: 0px;
+}
+
+nav {
+  background-image: linear-gradient(#7b94b4, #525e6e);
+  font-size: 1.3em;
+  display: none;
+  position: fixed;
+  max-height: 31px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0px 10px 0px 10px;
+}
+
+nav a:hover {
+  text-decoration: none;
+  background-image: linear-gradient(#525e6e, #7b94b4);
+  min-height: 31px;
+}
+
+nav ul {
+  margin: 0px auto;
+  text-align: center;
+  padding: 0px;
+  max-height: 31px;
+}
+
+nav li a {
+  display: block;
+  height: 31px;
+  background-image: linear-gradient(#7b94b4, #525e6e);
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+
+/* Section part with content */
+
+.cta {
+}
+
+.new-adventure,
+.weekly-discount {
+  background-color: #e6eaef;
+  max-width: 900px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.new-adventure__content,
+.weekly-discount_content,
+.weekly-discount_content_video {
+  flex: 1;
+  max-width: 450px;
+  margin: 20px 10px 0px 10px;
+  position: relative;
+}
+
+.new-adventure__image {
+  width: 100%;
+  border-radius: 5%;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.bottom-text {
+  position: absolute;
+  bottom: 15px;
+  left: 16px;
+  background-color: rgba(227, 190, 136, 0.8);
+  border-radius: 8px;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 5px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.top-text {
+  position: absolute;
+  top: 10px;
+  right: 16px;
+  background-color: rgba(227, 190, 136, 0.8);
+  border-radius: 8px;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 5px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.bottom-text a,
+.top-text a {
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+}
+
+.bottom-text a:hover,
+.top-text a:hover {
+  text-decoration: underline;
+}
+
+.weekly-discount a {
+  font-size: 2em;
+  color: #a69853;
+}
+
+.weekly-discount_content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+}
+
+.video {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+
+.discount {
+  grid-column: -1/1;
+  padding-left: 10px;
+}
+
+.products {
+  padding: 5px;
+}
+
+.products h3,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.products__image {
+  max-width: 131px;
+}
+
+.products a {
+  font-size: 1em;
+  font-weight: bold;
+  color: #707070;
+  text-decoration: none;
+}
+
+.products a:hover {
+  text-decoration: underline;
+}
+
+.become-member {
+  background-color: #e6eaef;
+  padding: 20px;
+  position: relative;
+}
+
+.become-member .bottom-text {
+  position: absolute;
+  bottom: 35px;
+  left: 30px;
+  background-color: rgba(227, 190, 136, 0.8);
+  border-radius: 8px;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 5px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.become-member__image {
+  width: 100%;
+  max-height: 289px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+@media (min-width: 500px) {
+  .weekly-discount_content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .new-adventure,
+  .weekly-discount {
+    flex-direction: row;
+    margin: auto;
+  }
+  nav {
+    display: block;
+    position: static;
+  }
+
+  nav a {
+    padding: 0px 5px 0px 5px;
+  }
+  nav li {
+    display: inline-block;
+  }
+
+  header label {
+    display: none;
+  }
+}
+
+@media (min-width: 700px) {
+  .weekly-discount_content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
