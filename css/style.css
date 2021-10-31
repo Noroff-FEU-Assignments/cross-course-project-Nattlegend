@@ -260,6 +260,8 @@ p {
   border-width: 2px;
 }
 
+/* Media queries - Responsive across screen sizes */
+
 @media (min-width: 500px) {
   .weekly-discount_content {
     grid-template-columns: repeat(2, 1fr);
