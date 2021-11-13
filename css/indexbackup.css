@@ -1,0 +1,143 @@
+/* Section part with content for index */
+
+.new-adventure,
+.weekly-discount {
+  background-color: #e6eaef;
+  max-width: 900px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.new-adventure__content,
+.weekly-discount_content,
+.weekly-discount_content_video {
+  flex: 1;
+  max-width: 450px;
+  margin: 20px 10px 0px 10px;
+  position: relative;
+}
+
+.new-adventure__image {
+  width: 100%;
+  border-radius: 5%;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.weekly-discount_content_video {
+  padding-top: 22px;
+  max-width: 100%;
+}
+
+.bottom-text {
+  position: absolute;
+  bottom: 15px;
+  left: 16px;
+  background-color: rgba(227, 190, 136, 0.8);
+  border-radius: 8px;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 5px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.top-text {
+  position: absolute;
+  top: 10px;
+  right: 16px;
+  background-color: rgba(227, 190, 136, 0.8);
+  border-radius: 8px;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 5px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.bottom-text a,
+.top-text a {
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+}
+
+.bottom-text a:hover,
+.top-text a:hover {
+  text-decoration: underline;
+}
+
+.weekly-discount a {
+  font-size: 2em;
+  color: #a69853;
+}
+
+.weekly-discount_content {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  margin: auto;
+}
+
+.discount {
+  grid-column: -1/1;
+  padding-left: 10px;
+}
+
+.products {
+  padding: 5px;
+  border-style: solid;
+  border-width: 1px;
+  margin: 5px;
+  max-width: 131px;
+  min-height: 180px;
+}
+
+.products h3,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.products__image {
+  max-width: 131px;
+}
+
+.products a {
+  font-size: 1em;
+  font-weight: bold;
+  color: #707070;
+  text-decoration: none;
+}
+
+.products a:hover {
+  text-decoration: underline;
+}
+
+.become-member {
+  background-color: #e6eaef;
+  padding: 20px;
+  position: relative;
+}
+
+.become-member .bottom-text {
+  position: absolute;
+  bottom: 35px;
+  left: 30px;
+  background-color: rgba(227, 190, 136, 0.8);
+  border-radius: 8px;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 5px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.become-member__image {
+  width: 100%;
+  max-height: 289px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+}
