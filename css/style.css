@@ -146,18 +146,6 @@ nav li a {
   display: block;
 }
 
-.top-menu {
-  position: absolute;
-  top: 50px;
-  right: 16px;
-  background-color: rgba(255, 255, 255, 0.7);
-  min-width: 150px;
-  border-radius: 8px;
-  padding: 10px 15px 10px 15px;
-  border-style: solid;
-  border-width: 1px;
-}
-
 /* Links, buttons and cta */
 
 a {
@@ -189,13 +177,38 @@ a {
   justify-items: center;
 }
 
+/* Menu */
+
+.top-menu {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 8px;
+  padding: 10px 15px 10px 15px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.top-menu a {
+  text-decoration: none;
+  color: #000;
+
+}
+
+.top-menu a:hover {
+  text-decoration: none;
+  color: #525e6e;
+
+}
+
 /* Google icon */
 
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
-.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-36 { 
+  font-size: 36px;
+  padding: 0px;
+  margin: 0px 5px 0px 5px;
+ }
 .material-icons.md-48 { font-size: 48px; }
-
-.account_circle {
-  font-size: 24px;
-}
