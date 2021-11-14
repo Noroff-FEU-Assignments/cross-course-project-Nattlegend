@@ -60,6 +60,7 @@
   .add-to-cart-buy {
     flex-direction: row;
 }
+}
 
   @media (min-width: 480px) {
   .main-content {
@@ -115,7 +116,7 @@
   .main-content-bottom  {
     flex-direction: row;
   }
-  .weekly, {
+  .weekly {
     grid-template-columns: repeat(2, 1fr);
     display: grid;
     justify-items: center;
@@ -150,4 +151,5 @@
     display: grid;
     justify-items: center;
   }
+}
 }
