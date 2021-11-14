@@ -27,6 +27,7 @@
       display: block;
       min-width: 80%;
       padding: 8px;
+      border: 1px #000 solid;
       border-radius: 10px;
       margin: 10px 0px;
 }
@@ -34,6 +35,22 @@
 input {
     padding: 5px;
     background-color: #fff;
+}
+
+input[type=text]:focus {
+    background-color: #7b94b4;
+}
+
+input[type=email]:focus {
+    background-color: #7b94b4;
+}
+
+input[type=tel]:focus {
+    background-color: #7b94b4;
+}
+
+input[type=submit] {
+    border: none
 }
 
 label {

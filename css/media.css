@@ -5,20 +5,6 @@
     flex-direction: column;
   }
 
-  .left-menu {
-    margin: 0% auto;
-  }
-
-  .left-menu .menu-top,
-  .left-menu .menu-bottom {
-    display: block;
-  }
-  .left-menu ul {
-    display: block;
-  }
-  .left-menu li {
-    flex-wrap: wrap;
-  }
   .weekly, .jacket-list {
     grid-template-columns: repeat(2, 1fr);
     display: grid;
@@ -57,6 +43,10 @@
     text-decoration: none;
     color: #525e6e;
   }
+  .top-menu a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
   .add-to-cart-buy {
     flex-direction: row;
 }
@@ -88,16 +78,7 @@
   .content {
     flex-direction: row;
   }
-  .left-menu .menu-top,
-  .left-menu .menu-bottom {
-    display: block;
-  }
-  .left-menu ul {
-    display: block;
-  }
-  .left-menu li {
-    flex-wrap: wrap;
-  }
+
   .main-content {
     flex-direction: row;
   }
