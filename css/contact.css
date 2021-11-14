@@ -1,0 +1,49 @@
+.main-content {
+    min-height: 100px;
+    margin: 0px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+.continer {
+      display: flex;
+      flex-direction: row;
+  }
+
+.one {
+      flex: 1;
+  }
+
+.text {
+      padding: 10px 0px 0px 10px;
+  }
+
+.text p {
+      padding: 10px;
+  }
+
+.form-input {
+      display: block;
+      min-width: 80%;
+      padding: 8px;
+      border-radius: 10px;
+      margin: 10px 0px;
+}
+
+input {
+    padding: 5px;
+    background-color: #fff;
+}
+
+label {
+    padding: 10px;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+option {
+    background-color: #fff;
+}

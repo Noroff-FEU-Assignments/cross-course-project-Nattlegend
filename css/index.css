@@ -1,10 +1,5 @@
 /* Index main content */
 
-.main-content {
-  display: flex;
-  flex-direction: row;
-}
-
 .campaign {
   flex: 1;
   padding: 5px;

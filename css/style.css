@@ -65,6 +65,7 @@ body {
 main {
   background-color: #e6eaef;
   padding: 10px;
+ 
 }
 
 footer {
@@ -101,7 +102,7 @@ p {
 .nav-background {
   background-image: linear-gradient(#7b94b4, #525e6e);
   max-width: 1000px;
-  min-height: 31px;
+  min-height: 40px;
   padding: 0px;
 }
 
@@ -122,6 +123,14 @@ nav a:hover {
   background-image: linear-gradient(#525e6e, #7b94b4);
 }
 
+.activenav {
+  background-image: linear-gradient(#525e6e4f, #7b94b462);
+  text-decoration: underline;
+  border-inline: solid;
+  border-width: 2px;
+  border-color: #000;
+}
+
 nav ul {
   margin: 0px auto;
   text-align: center;
@@ -132,6 +141,7 @@ nav li a {
   display: block;
   background-image: linear-gradient(#7b94b4, #525e6e);
   padding-top: 5px;
+  min-height: 35px;
 }
 
 
@@ -163,9 +173,9 @@ a {
   text-decoration: underline;
 }
 
-.cta:active {
-  background-color: #000;
-}
+.active {
+  background-image: linear-gradient(#010811, #000000);
+ }
 
 /* Global main content */
 
@@ -178,15 +188,21 @@ a {
   justify-items: center;
 }
 
+.main-content {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
 /* Menu */
 
 .top-menu {
   position: absolute;
-  top: 40px;
+  top: 45px;
   right: 10px;
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 8px;
-  padding: 10px 15px 10px 15px;
+  padding: 5px 15px 5px 15px;
   border-style: solid;
   border-width: 1px;
 }
@@ -213,3 +229,7 @@ a {
   margin: 0px 5px 0px 5px;
  }
 .material-icons.md-48 { font-size: 48px; }
+
+.active-cart {
+  color: red;
+ }
