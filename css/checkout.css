@@ -1,7 +1,9 @@
-.checkout {
-    justify-content: center;
+.main-content.checkout  {
+    display: flex;
     flex-direction: column;
-}
+    justify-content: center;
+    margin: auto;
+  }
 
 .carter {
     flex: 1;
@@ -12,7 +14,7 @@
 .carter-out {
     display: flex;
     flex-direction: row;
-    width: 50%;
+    width: 80%;
     margin: auto;
     border-top: dashed;
     border-bottom: dashed;

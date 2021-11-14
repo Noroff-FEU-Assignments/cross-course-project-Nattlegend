@@ -1,14 +1,14 @@
-.main-content {
+.main-content-contact {
     min-height: 100px;
     margin: 0px auto;
     padding: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
 
 .continer {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
   }
 
 .one {

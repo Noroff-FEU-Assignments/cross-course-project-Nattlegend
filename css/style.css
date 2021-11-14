@@ -124,10 +124,9 @@ nav a:hover {
 }
 
 .activenav {
-  background-image: linear-gradient(#525e6e4f, #7b94b462);
   text-decoration: underline;
   border-inline: solid;
-  border-width: 2px;
+  border-width: 3px;
   border-color: #000;
 }
 
@@ -188,23 +187,13 @@ a {
   justify-items: center;
 }
 
-.main-content {
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-}
-
 /* Menu */
 
 .top-menu {
   position: absolute;
-  top: 45px;
+  top: 0px;
   right: 10px;
-  background-color: rgba(255, 255, 255, 0.7);
-  border-radius: 8px;
-  padding: 5px 15px 5px 15px;
-  border-style: solid;
-  border-width: 1px;
+  padding: 5px 15px px 15px;
 }
 
 .top-menu a {
@@ -215,8 +204,7 @@ a {
 
 .top-menu a:hover {
   text-decoration: none;
-  color: #525e6e;
-
+  color: #d8dde4;
 }
 
 /* Google icon */
