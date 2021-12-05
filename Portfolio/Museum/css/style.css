@@ -1,0 +1,469 @@
+/* Main stylesheet */
+
+body {
+    min-height: 100vh;
+    margin: 0px auto;
+    background-color: #FCF2EF;
+}
+
+header {
+    background-color: #639DFF;
+    display: flex;
+}
+
+main {
+    max-width: 1500px;
+    margin: auto;
+
+}
+
+main section {
+    border-top: solid 1px;
+    border-left: solid 1px;
+    border-right: solid 1px;
+
+}
+
+footer {
+    background-color: #FF5050;
+    border-top: solid 1px;
+}
+
+a {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+h2 {
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.5em;
+}
+
+h1, h2, h3 {
+    font-family: 'Fira Sans', sans-serif;
+    color: #000;
+}
+
+p {
+    font-size: 1em;
+    color: #000;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* Header */
+
+.home {
+    font-size: 2em;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: italic;
+    color: #fff;
+}
+
+header div {
+}
+
+.header {
+    position: relative;
+}
+
+.logotype {
+    width: 100px;
+    padding: 5px;
+}
+
+.top-left {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    margin: 0px auto;
+    padding: 0px 0px 0px 20px;
+}
+
+.top-left h1 {
+    margin: 0px auto;
+
+}
+
+.top-right {
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
+
+.top-right li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+}
+
+.menu {
+    flex: 1;
+}
+
+/* Nav menu */
+
+nav {
+    display: block;
+    max-width: 650px;
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0px auto;
+    text-transform: uppercase;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    transition: 0.9s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    padding: 5px 20px 5px 20px;
+    color: rgb(113, 0, 0);
+    text-transform: uppercase;
+    font-size: 1.4em;
+    background-color: #9dbffa;
+    transition: 0.9s;
+}
+
+/* Google Icons */
+
+.material-icons.md-36 { 
+    transition: .5s;
+    font-size: 48px;
+    color: #fff; 
+}
+
+.material-icons.md-36:hover { 
+    transition: .5s;
+    background-color: #b0cdff;
+    border-radius: 10px;
+    color: rgb(17, 17, 17);
+}
+
+/* Hamburger menu */
+
+
+
+/* Main section top-content */
+
+.top-content {
+    min-height: 100px;
+}
+
+.top-content .background {
+    background-image: url("../images/learn-2405206_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: top;
+    min-height: 600px;
+    position: relative;
+}
+
+.content-bar {
+    min-height: 45px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.bar {
+    display: flex;
+    max-width: 80%;
+    position: absolute;
+    top: 674px
+}
+
+.menu-bar {
+    flex: 1;
+    padding: 0px 10px;
+}
+
+/* CTA Button + links */
+
+.cta {
+    display: inline-block;
+    padding: 10px;
+    width: 220px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: #FFF;
+    text-align: center;
+}
+
+.movies {
+    background-color: #1e8816;
+    bottom: 10px;
+    transition: 0.4s;
+}
+
+.calendar {
+    background-color: #E4AE42;
+    bottom: 10px;
+    transition: 0.4s;
+}
+
+.audioguide {
+    background-color: #FF6363;
+    bottom: 10px;
+    transition: 0.4s;
+}
+
+.movies:hover, .calendar:hover, .audioguide:hover {
+    padding: 15px;
+    transition: 0.4s;    
+}
+
+.readmore {
+    display: block;
+    max-width: 135px;
+    font-size: 1em;
+    color: #000;
+    transition: 0.4s;
+}
+
+.readmore:hover {
+    font-size: 1.2em;
+    color: #000;
+    transition: 0.4s;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: #b84a4a;
+}
+
+/* Main section welcome-content */ 
+
+.welcome-content {
+    margin: 0px auto;
+
+}
+
+.welcome-text {
+    margin: 0px auto;
+    width: 50%;
+    text-align: center;
+}
+
+/* Main section main-content */ 
+
+.main-content {
+
+}
+
+.content-flex1, .content-flex2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-picture {
+    width: 100%;
+    height: 100%;
+    transition: .4s;
+    opacity: .8;
+}
+
+.content-picture:hover {
+    transition: .4s;
+    opacity: 1;
+}
+
+.content-box {
+    flex: 1;
+    background-color: #DBDBDB;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+}
+
+.content-box:hover {
+    background-color: #cacaca;
+}
+
+.content-text {
+    max-width: 60%;
+    margin: 0px auto;
+}
+
+
+/* Main section second-content */
+
+.second-content {
+    position: relative;
+}
+
+.second__content-discover {
+    background-image: url("../images/jesse-orrico-60373.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 45%;
+    min-height: 450px;
+}
+
+.second__content-text { 
+    border-radius: 35px;
+    background: rgba(255, 255, 255, 0.3);
+    width: 30%;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    padding: 0px 0px 20px 20px;
+
+}
+
+/* Main section links-content */
+
+.links-content {
+    background-color: #FF5050;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.links {
+    flex: 1;
+    text-align: center;
+}
+
+.links a:hover {
+    background-color: #b84a4a;
+
+}
+
+.social {
+    border-left: solid;
+    border-right: solid;
+    border-color: #FF6363;
+    min-width: 60%;
+}
+
+/* Main section resturants-content */ 
+
+.resturants-content {
+}
+
+.resturants {
+    display: flex;
+    flex-direction: row;
+}
+
+.visit__resturants {
+    flex: 1;
+    background-color: #DBDBDB;
+    position: relative;
+    min-height: 350px;
+}
+
+.resturants-text { 
+    width: 60%;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    padding-left: 20px;
+
+}
+
+.visit__resturants__img {
+    flex: 1;
+    background-image: url("../images/img/spencer-davis-q3ApAZsS1os-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 45%;
+}
+
+
+/* Main section find-us */ 
+
+.find-us {
+    display: flex;
+    flex-direction: row;
+}
+
+.visit_us {
+    flex: 1;
+    background-color: #DBDBDB;
+    position: relative;
+    min-height: 350px;
+}
+
+.find-us__text { 
+    width: 60%;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    padding-left: 20px;
+}
+
+.find-us__text span { 
+    color: crimson;
+}
+
+.find-us__img {
+    flex: 1;
+    background-image: url("../images/img/tamas-tuzes-katai-rEn-AdBr3Ig-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 70%;
+}
+
+/* Footer section */
+
+.footer_bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.links {
+    flex: 1;
+}
+
+footer li {
+    display: block;
+}
+
+footer ul {
+    padding: 0px;
+}
+
+footer li a {
+    color: #fff;
+}
+
+footer .links a {
+    font-size: 1.1em;
+}
+
+footer .links a:hover {
+    background-color: #b84a4a;
+}

@@ -1,0 +1,25 @@
+/* Main section second-content */
+
+.education-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.education__content-img {
+    background-image: url("../images/img/mario-heller-hXLkFpvKRys-unsplash-small.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 45%;
+    min-height: 450px;
+}
+
+.education__content-text { 
+    flex: 1;
+    padding: 20px;
+
+}
+
+.conteiner {
+    flex: 1.2;
+}
