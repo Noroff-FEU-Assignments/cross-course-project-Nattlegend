@@ -266,8 +266,13 @@ nav a:hover {
 
 .welcome-text {
     margin: 0px auto;
-    width: 50%;
+    width: 70%;
     text-align: center;
+}
+
+.welcome-text p {
+    padding-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 /* Main section main-content */ 
