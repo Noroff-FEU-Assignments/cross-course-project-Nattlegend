@@ -101,9 +101,6 @@
 
 /* Main section resturants-content */ 
 
-.resturants-content {
-}
-
 .resturants {
     display: flex;
     flex-direction: row;
