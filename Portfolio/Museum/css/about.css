@@ -1,0 +1,45 @@
+/* Main section second-content */
+.about-us {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-flex {
+    display: flex;
+    flex-direction: row;
+    background-color: #DBDBDB;
+}
+
+.about {
+    flex: 1;
+}
+
+.conteiner {
+    flex: 1.2;
+}
+
+.about__img {
+    background-image: url("../images/roberto-nickson-396152.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-y: 80%;
+    min-height: 450px;
+    transition: .4s;
+    opacity: .8;
+}
+
+.about__img:hover {
+    transition: .4;
+    opacity: 1;
+}
+
+.about-text { 
+    flex: 1;
+    padding: 20px;
+
+}
+
+.content-picture {
+    max-width: 100%;
+}

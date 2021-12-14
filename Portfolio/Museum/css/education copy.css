@@ -1,28 +1,5 @@
 /* Main section for education */
 
-.education-main {
-    display: flex;
-    flex-direction: row;
-    background-color: #DBDBDB;
-    transition: .4s;
-    opacity: .8;
-}
-
-.education-main:hover {
-    transition: .4s;
-    opacity: 1;
-}
-
-.kids {
-    flex: 1;
-}
-
-.kids__text {
-    margin: auto;
-    padding: 20px;
-    text-align: left;
-}
-
 .education-content {
     display: flex;
     flex-direction: column;
@@ -59,6 +36,11 @@
     opacity: .8;
 }
 
+.for_kids__img:hover {
+    transition: .4s;
+    opacity: 1;
+}
+
 
 .for_teachers__img {
     background-image: url("../images/img/ergonofis-oLThw11c8kg-unsplash-small.jpg");
@@ -69,4 +51,14 @@
     min-height: 450px;
     transition: .4s;
     opacity: .8;
+}
+
+.for_teachers__img:hover {
+    transition: .4s;
+    opacity: 1;
+}
+
+.content-flex1 {
+    display: flex;
+    flex-direction: column;
 }

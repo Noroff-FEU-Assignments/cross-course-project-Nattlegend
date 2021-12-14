@@ -37,7 +37,7 @@
                 <nav>
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="news.html">What's on</a></li>
+                        <li><a href="news.html" class="active">What's on</a></li>
                         <li><a href="explore.html">Explore</a></li>
                         <li><a href="education.html">Education</a></li>
                         <li><a href="visit.html">Visit us</a></li>
@@ -50,11 +50,23 @@
 
     <main>
         <section class="top-content">
-            <div class="background"></div>
+            <div class="background">
+                <div class="open-hours">
+                    <p class="open-hours-text">Open hours</p>
+                    <ul>
+                        <li>Monday: Closed</li>
+                        <li>Tuesday: 10:00 – 16:00</li>
+                        <li>Wednesday: 10:00 – 16:00</li>
+                        <li>Friday: 10:00 – 19:00</li>
+                        <li>Saturday: 9:00 – 16:00</li>
+                        <li>Sunday: 9:00 – 13:00</li>
+                    </ul>
+                </div>
+            </div>
             <div class="content-bar">
                 <div class="bar">
                     <div class="menu-bar"><a href="index.html" class="cta movies">Movies</a></div>
-                    <div class="menu-bar"><a href="index.html" class="cta calendar">Calendar</a></div>
+                    <div class="menu-bar"><a href="news.html" class="cta calendar">Calendar</a></div>
                     <div class="menu-bar"><a href="index.html" class="cta audioguide">Audioguide</a></div>
                 </div>
             </div>
@@ -65,28 +77,48 @@
                     <h1>What's on?</h1>
                 </div>
                 <div class="news-text">
-                    <h2>Visiting Professor of Aeronautics</h2>
-                    <p>It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of
-                        Technology will be delivering 3 lectures on the development of aeronautics and where the future
-                        lies in this exciting ‘space’.
-                    </p>
-                    <h2>Night in the Museum</h2>
-                    <p>Get your family together for an exciting night in the museum as you sleep over beside dinosaurs
-                        and science displays. Bring your own sleeping bag and get ready to rough it as we go exploring
-                        the wonders of science.
-                    </p>
-                    <h2>Energetica Exhibition on Loan</h2>
-                    <p>On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the
-                        Community Science Museum. It’s a series of installations that allow visitors to experience the
-                        power of the elements as we harness them. From solar energy powering lighting, to ‘Wind Island’
-                        that shows how turbines are able to use and control wind to create power.
+                    <div class="news">
+                        <h2>Visiting Professor of Aeronautics</h2>
+                        <p class="date"><span class="material-icons">
+                                calendar_month
+                            </span>Between 01.12.2021 - 31.12.2021
+                        </p>
+                        <p>It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of
+                            Technology will be delivering 3 lectures on the development of aeronautics and where the
+                            future
+                            lies in this exciting ‘space’.
+                        </p>
+                    </div>
+                    <div class="news">
+                        <h2>Night in the Museum</h2>
+                        <p class="date"><span class="material-icons">
+                                calendar_month
+                            </span>Between 10.12.2021 - 10.01.2022</p>
+                        <p>Get your family together for an exciting night in the museum as you sleep over beside
+                            dinosaurs
+                            and science displays. Bring your own sleeping bag and get ready to rough it as we go
+                            exploring
+                            the wonders of science.
+                        </p>
+                    </div>
+                    <div class="news">
+                        <h2>Energetica Exhibition on Loan</h2>
+                        <p class="date"><span class="material-icons">
+                                calendar_month
+                            </span>Between 15.12.2021 - 31.02.2022</p>
+                        <p>On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the
+                            Community Science Museum. It’s a series of installations that allow visitors to experience
+                            the
+                            power of the elements as we harness them. From solar energy powering lighting, to ‘Wind
+                            Island’
+                            that shows how turbines are able to use and control wind to create power.</p>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="main-content">
             <div class="content-flex1">
-                <div class="content-box conteiner"><img src="/Portfolio/Museum/images/andrew-ruiz-348421.jpg"
-                        class="content-picture" /></div>
+                <div class="content-box conteiner space__img"></div>
                 <div class="content-box">
                     <div class="content-text">
                         <p>Explore the wonders of our cosmos. Our fantastic
@@ -111,24 +143,24 @@
                             future is here. You can even say hello and shake the hand of Rob the Robot.</p>
                     </div>
                 </div>
-                <div class="content-box conteiner"><img src="/Portfolio/Museum/images//samuel-zeller-158996-small.jpg"
-                        class="content-picture" /></div>
+                <div class="content-box conteiner robotics__img"></div>
             </div>
         </section>
     </main>
 
     <footer>
         <div class="footer_bottom">
-            <div class="links">
+            <div class="links-footer-footer">
                 <h3>Corporate info</h3>
                 <div>
                     <ul>
                         <li><a href="index.html">About us</a></li>
                         <li><a href="index.html">Visit us</a></li>
+                        <li><a href="index.html">Contact us</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="links">
+            <div class="links-footer-footer">
                 <h3>Career</h3>
                 <div>
                     <ul>
@@ -137,7 +169,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="links">
+            <div class="links-footer-footer">
                 <h3>Education</h3>
                 <ul>
                     <li><a href="index.html">For kids</a></li>

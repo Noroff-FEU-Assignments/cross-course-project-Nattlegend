@@ -1,0 +1,60 @@
+/* Main section find-us */ 
+
+.find-us {
+    display: flex;
+    flex-direction: row;
+}
+
+.visit_us {
+    flex: 1;
+    background-color: #DBDBDB;
+    position: relative;
+    min-height: 350px;
+}
+
+/* Find us */
+
+.find-us_search {
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #FF5050;
+    width: 700px;
+    min-height: 100px;
+    border-radius: 10px;
+    border: solid 1px;
+}
+
+form input {
+    display: inline-block;
+}
+
+input {
+    padding: 10px;
+    margin: 0px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 0;
+    min-width: 50%;
+}
+
+input[type="submit"] {
+    margin: 5px 0px 0px 0px;
+}
+
+button {
+    padding: 0px;
+    margin: 0px auto;
+    background-color: #DBDBDB;
+    border: 0px;
+    height: 36px;
+}
+
+.material-icons {
+    padding: 0px;
+}
+
+.bkg__img {
+    background-position: center;
+    background-position-y: 75%;
+    min-height: 550px;
+}
